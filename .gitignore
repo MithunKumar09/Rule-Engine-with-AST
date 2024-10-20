@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Frontend (React Native)
+frontend/.expo/
+frontend/.expo-shared/
+frontend/.babelrc
+frontend/.env
+frontend/build/
+frontend/ios/
+frontend/android/
+frontend/package-lock.json
+frontend/yarn-error.log
+frontend/yarn.lock
+
+# Backend (Flask)
+backend/__pycache__/
+backend/*.py[cod]
+backend/instance/
+backend/.env
+backend/.venv/
+backend/venv/
+backend/requirements.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Other files you may want to ignore
+*.sqlite3
